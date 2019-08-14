@@ -16,31 +16,30 @@ body, html {
   width: 1600px;
 }
 
-.container h1 {
+.container p {
   font-family: "Yeseva One", sans-serif;
   display: block;
   text-align: center;
   font-size: 90px;
-  color: white;
+  color: #fff;
   margin: 0;
   font-weight: 400;
-  text-shadow:  1px 1px 2px black;
+  text-shadow:  1px 1px 2px #000;
 }
-.background-overlay .container h1:nth-child(2) {
+.background-overlay .container p:nth-child(2) {
   margin-bottom: 30px;
 }
 
-div.back-1 {
-    background-image: url(../images/background/Bg.png);
-    width: 1600px;
-    height: 750px;
-    position: absolute;
-    top: 0px;
+.back-1 {
+  background-image: url(../images/background/Bg.png);
+  width: 1600px;
+  height: 750px;
+  position: absolute;
+  top: 0px;
 }
 
 .navbar .container {
   margin: 0 175px;
-  height: 110px;
   
 }
 
@@ -50,10 +49,9 @@ div.back-1 {
   clear: both;
  }
 
- div.navbar {
+ .navbar {
   background: url(../images/background/shadow.png) no-repeat center center;
   width: 1600px;
-  height: 159px;
  }
 
 .background-overlay .container {
@@ -70,33 +68,29 @@ div.back-1 {
 }
 
 .container .links a {
- display: inline-block;
- box-sizing: border-box;
- border: 1px solid black;
- width: 230px;
- height: 55px;
- text-transform: uppercase;
- text-align: center;
- text-decoration: none;
- color: white;
- background-color: rgba(0, 0, 0, 0.6);
- padding-top: 16px;
- margin-right: 25px;
- margin-top: 32px;
- font-size: 18px;
- font-family: "Lato", sans-serif;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 230px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 16px;
+  margin-right: 25px;
+  margin-top: 32px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
 }
 .container .links a:last-child {
   margin: 0;
-  border: 1px solid white;
+  border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0.2);
  }
 
 .container .links {
   display: inline-block;
-}
-
-.container {
-
 }
 
