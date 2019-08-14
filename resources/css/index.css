@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Yeseva One";
+  src: url(../fonts/YesevaOne.otf);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato.ttf);
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.container h1 {
+  font-family: "Yeseva One", sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 90px;
+  color: white;
+  margin: 0;
+  font-weight: 400;
+  text-shadow:  1px 1px 2px black;
+}
+.background-overlay .container h1:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+div.back-1 {
+    background-image: url(../images/background/Bg.png);
+    width: 1600px;
+    height: 750px;
+    position: absolute;
+    top: 0px;
+}
+
+.navbar .container {
+  margin: 0 175px;
+  height: 110px;
+  
+}
+
+.layout-positioner::after {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+ div.navbar {
+  background: url(../images/background/shadow.png) no-repeat center center;
+  width: 1600px;
+  height: 159px;
+ }
+
+.background-overlay .container {
+  width: 970px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  margin-top: 230px;
+}
+
+.container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container .links a {
+ display: inline-block;
+ box-sizing: border-box;
+ border: 1px solid black;
+ width: 230px;
+ height: 55px;
+ text-transform: uppercase;
+ text-align: center;
+ text-decoration: none;
+ color: white;
+ background-color: rgba(0, 0, 0, 0.6);
+ padding-top: 16px;
+ margin-right: 25px;
+ margin-top: 32px;
+ font-size: 18px;
+ font-family: "Lato", sans-serif;
+}
+.container .links a:last-child {
+  margin: 0;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.2);
+ }
+
+.container .links {
+  display: inline-block;
+}
+
+.container {
+
+}
+
