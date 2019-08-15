@@ -25,7 +25,7 @@ body, html {
   width: 1600px;
 }
 
-.background-overlay .container p:nth-child(2) {
+.background-overlay .container .main-title {
   margin-bottom: 30px;
 }
 
@@ -47,7 +47,7 @@ body, html {
   margin-top: 130px;
 }
 
-.container h1 {
+.container .header {
   display: block;
   float: left;
   text-transform: uppercase;
@@ -56,7 +56,7 @@ body, html {
   color: #fff;
 }
 
-.container img {
+.container .divider {
   display: block;
   margin: 0 auto;
 }
@@ -98,7 +98,7 @@ body, html {
   z-index: 1;
 }
 
-.container p {
+.container .main-title {
   font-family: "Yeseva One", sans-serif;
   display: block;
   text-align: center;
@@ -114,6 +114,11 @@ body, html {
   z-index: 2;
 }
 
+.layout-positioner h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .layout-positioner {
   z-index: 3;
 }
@@ -124,8 +129,8 @@ body, html {
   width: 1250px;
 }
 
-.layout-positioner h1 {
-  margin: 30px 0;
+.layout-positioner .header {
+  margin: 35px 0;
 }
 
 .layout-positioner::after {
@@ -138,66 +143,69 @@ body, html {
   float: right;
  }
 
- .navbar ul {
+ .navbar .main-menu {
   list-style: none;
   margin: 0;
   padding: 0;
  }
 
- .navbar ul li {
-  list-style: none;
-  float: left;
-  display: block;
-  padding: 40px 5px;
-  padding-bottom: 0;
-  margin-right: 50px;
-  position: relative;
+ .navbar .main-menu li {
+  display: inline-block;
+  margin:0px;
   box-sizing: border-box;
-  height: 100%;
+  margin-left: -4px;
  }
 
- .navbar ul li a {
+ .navbar .main-menu li:first-child {
+  margin-left: 0;
+ }
 
+ .navbar .main-menu li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
   font-family: "GenB", sans-serif;
   font-size: 21px;
-  color: #fff;
-  text-decoration: none;
+  padding: 44px 30px;
+  overflow: hidden;
  }
 
-
- .navbar ul li:hover {
+ .navbar .main-menu li:hover a {
   border-top: 5px solid #c9c6ba;
-  padding-top: 35px;
- }
-
- .navbar ul li:last-child {
-  margin-right: 0;
+  padding-top: 39px;
  }
 
  .social-media {
   float: right;
-  padding: 20px 0;
-  padding-right: 37px;
-  padding-left: 15px;
-  margin-top: 20px;
  }
 
- .social-media ul {
+ .social-media .social-menu {
   list-style: none;
   margin: 0;
   padding: 0;
  }
 
- .social-media ul li {
-  float: right;
-  margin-right: 18px;
+ .social-media .social-menu li {
+  display: inline-block;
+  margin:0px;
+  box-sizing: border-box;
+  margin-left: -4px;
+  padding: 36px 0;
  }
 
- .social-media ul li a {
+ .social-media .social-menu li a {
   font-size: 21px;
   color: #dab33e;
+  display: block;
+  text-decoration: none;
+  padding: 8px 5px;
  }
 
- .social-media ul li:first-child {
-  margin-right: 0px;
+ .social-media social-menu li a:hover {
+  color: #f0c955;
+  text-shadow: 1px 1px 2px #000;
+ }
+
+ .social-media .social-menu li:first-child {
+  margin-left: 0px;
  }
