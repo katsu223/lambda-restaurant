@@ -62,9 +62,9 @@ body, html {
 }
 
 .logo {
-  float: left;
-  margin-top: 35px;
-  margin-left: 175px;
+  display: inline-block;
+  padding-top: 35px;
+  padding-left: 175px;
 }
 
 .logo-title {
@@ -81,21 +81,21 @@ body, html {
 }
 
 .nav {
-  float: left;
-  margin-left: 210px;
+  display: inline-block;
  }
 
+.navigation {
+  display: inline-block;
+}
+
 .main-menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
- }
+  margin-left: 50px;
+}
 
 .main-menu .menu-button {
   box-sizing: border-box;
   display: inline-block;
-  margin:0px;
-  margin-left: -4px;
+  padding: 44px 30px 0;
  }
 
  .main-menu .menu-button:first-child {
@@ -104,33 +104,24 @@ body, html {
 
 .menu-button .menu-link {
   color: #fff;
-  display: block;
   font-family: "GenB", sans-serif;
   font-size: 21px;
-  overflow: hidden;
-  padding: 44px 30px;
   text-decoration: none;
  }
 
- .main-menu .menu-button:hover a {
+.main-menu .menu-button:hover a {
   border-top: 5px solid #c9c6ba;
   padding-top: 39px;
- }
-
- .header::after {
-  clear: both;
-  content: "";
-  display: table;
- }
+}
 
 .header {
   position: relative;
   z-index: 2;
 }
 
- .socials {
-  float: left;
- }
+.socials {
+ display: inline-block;
+}
 
  .socials .social-menu {
   list-style: none;
@@ -138,13 +129,9 @@ body, html {
   padding: 0;
  }
 
- .social-button {
-  box-sizing: border-box;
+.social-button {
   display: inline-block;
-  margin:0px;
-  margin-left: -4px;
-  padding: 36px 0;
- }
+}
 
 .social-button .social-link {
   color: #dab33e;
@@ -172,8 +159,8 @@ body, html {
 }
 
 .intro {
+  padding-top: 100px;
   text-align: center;
-  margin-top: 110px;
 }
 
 .main-title {
