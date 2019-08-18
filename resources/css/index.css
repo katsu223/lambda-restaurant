@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Yeseva One";
+  src: url(../fonts/YesevaOne.otf);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato.ttf);
+}
+
+@font-face {
+  font-family: "GenB";
+  src: url(../fonts/GenB.ttf);
+}
+
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.button {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 35px;
+}
+
+.button-book {
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, .6);
+  margin-right: 25px;
+}
+
+.button-menu {
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.button-group {
+  margin-top: 45px;
+}
+
+.container {
+  background-attachment: fixed;
+  background-image: url(../images/background/Bg.png);
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+
+.divider {
+  margin-top: 30px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 35px;
+  padding-left: 175px;
+}
+
+.logo-link {
+  color: #fff;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav,
+.nav-bar {
+  display: inline-block;
+ }
+
+ .nav {
+  padding-left: 210px;
+ }
+
+.main-menu {
+  font-size: 0;
+ }
+
+.main-menu .menu-button {
+  display: inline-block;
+ }
+
+.menu-button .menu-link {
+  color: #fff;
+  display: block;
+  font-family: "GenB", sans-serif;
+  font-size: 21px;
+  padding: 44px 30px;
+  text-decoration: none;
+ }
+
+ .main-menu .menu-button:hover a {
+  border-top: 5px solid #c9c6ba;
+  padding-top: 39px;
+ }
+
+.header {
+  position: relative;
+  z-index: 2;
+}
+
+.container::before {
+  content: "";
+  top: -110px;
+  left: 150px;
+  position: absolute;
+  height: 100px;
+  box-shadow: 0px 55px 82px -20px rgba(0, 0, 0, .75);
+  width: 1600px;
+  z-index: 1;
+}
+
+.socials {
+  display: inline-block;
+  vertical-align: top;
+ }
+
+.socials .social-menu {
+  font-size: 0;
+ }
+
+.social-button {
+  display: inline-block;
+  padding: 36px 0;
+ }
+
+.social-button .social-link {
+  color: #dab33e;
+  display: block;
+  font-size: 21px;
+  padding: 8px 5px;
+  text-decoration: none;
+ }
+
+.social-button .social-link:hover {
+  color: #f0c955;
+  text-shadow: 1px 1px 2px #000;
+ }
+
+.intro {
+  text-align: center;
+  padding-top: 110px;
+  margin-bottom: 155px;
+}
+
+.main-title {
+  color: #fff;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 90px;
+  text-shadow:  1px 1px 2px #000;
+}
