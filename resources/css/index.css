@@ -177,7 +177,6 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
 
 .content {
   text-align: center;
-  padding-left: 80px;
   width: 430px;
 }
 
@@ -196,9 +195,10 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   margin-top: 34px;
 }
 
-.flex-content {
+.content-container {
   align-items: center;
   display: flex;
   padding-top: 58px;
+  padding-left: 80px;
   justify-content: center;
 }
