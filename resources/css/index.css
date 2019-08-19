@@ -162,3 +162,43 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   font-size: 90px;
   text-shadow:  1px 1px 2px #000;
 }
+
+.first-section{
+  background:  url("../images/background/pattern.png");
+  background-position: 50% 0px;
+  box-shadow: inset 0 0 102px 6px rgba(0, 0, 0, .1);
+  padding-bottom: 27px;
+}
+
+.man {
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+.content {
+  text-align: center;
+  width: 430px;
+}
+
+.content-title {
+  color: #cc9900;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.quote {
+  color: #4c4c4c;
+  font-family: "Lato", sans-serif;
+  line-height: 24px;
+  margin-top: 34px;
+}
+
+.content-container {
+  align-items: center;
+  display: flex;
+  padding-top: 58px;
+  padding-left: 80px;
+  justify-content: center;
+}
