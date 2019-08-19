@@ -247,3 +247,86 @@ div {
 .ingredients-container {
   margin-top: 40px;
 }
+
+.third-section {
+  background:  url("../images/background/pattern-2.png");
+  box-shadow: inset 0 0 102px 6px rgba(0, 0, 0, .1);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu-group {
+  text-align: center;
+}
+
+.menu-column:first-child {
+  margin-right: 145px;
+}
+
+.menu-group:nth-child(2) .menu-title {
+  margin-top: 55px;
+}
+
+.menu-group .divider {
+  margin-bottom: 15px;
+}
+
+.description {
+  text-align: left;
+}
+
+.menu-title {
+  color: #cc9900;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 36px;
+}
+
+.menu-item {
+  color: #c89f2d;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 21px;
+  padding: 10px 14px;
+  position: relative;
+  margin-bottom: 20px;
+  width: 430px;
+}
+
+.dish-name {
+  border-bottom: 1px solid #cc9900;
+  display: flex;
+  font-weight: 400; /* too bold without this property */
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.description {
+  color: #4c4c4c;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.special {
+  border: 1px solid #cc9900;
+}
+
+.special-tag {
+  background: #cc9900;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  width: 70px;
+  position: absolute;
+  top: -28px;
+  right: -1px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
