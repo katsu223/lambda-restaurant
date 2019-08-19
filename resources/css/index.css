@@ -18,6 +18,10 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   padding: 0;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 1600px;
@@ -201,4 +205,45 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   padding-top: 58px;
   padding-left: 80px;
   justify-content: center;
+}
+
+.second-section{
+  background:  url("../images/background/section-2.png") no-repeat;
+  padding: 100px 215px 100px 815px;
+}
+
+.second-section .content {
+  background: rgba(0, 0, 0, .6);
+  padding: 70px 70px;
+  width: 570px;
+}
+
+.second-section .content .content-title {
+  color: #fff;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.second-section .content .quote {
+  color: #fff;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.images-section {
+  margin-top: 30px;
+}
+
+.ingredients-image {
+  border: 5px solid rgba(255, 255, 255, .1);
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+.ingreditets-image:first-child {
+  margin-left: 0;
+}
+
+.ingredients-container {
+  margin-top: 40px;
 }
