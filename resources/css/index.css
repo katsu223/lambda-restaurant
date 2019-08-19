@@ -208,20 +208,20 @@ div {
 }
 
 .second-section{
-  background:  url("../images/background/section-2.png") no-repeat;
+  background:  url("../images/background/section-2.jpg") no-repeat;
   padding: 100px 215px 100px 815px;
 }
 
 .second-section .content {
   background: rgba(0, 0, 0, .6);
-  padding: 70px 70px;
+  padding: 65px 70px;
   width: 570px;
 }
 
 .second-section .content .content-title {
   color: #fff;
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .second-section .content .quote {
