@@ -28,7 +28,11 @@ div {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  height: 100%;
+  justify-content: space-between;
   width: 1600px;
 }
 
@@ -146,20 +150,26 @@ div {
   font-size: 0;
  }
 
-.social-button {
-  display: inline-block;
+.social-button-menu {
   padding: 36px 0;
  }
 
-.social-button .social-link {
-  color: #dab33e;
+.social-button {
+  display: inline-block;
+}
+
+.social-link {
   display: block;
+  text-decoration: none;
+}
+
+.social-link-menu {
+  color: #dab33e;
   font-size: 21px;
   padding: 8px 5px;
-  text-decoration: none;
  }
 
-.social-button .social-link:hover {
+.social-link-menu:hover {
   color: #f0c955;
   text-shadow: 1px 1px 2px #000;
  }
@@ -470,6 +480,7 @@ div {
   color: #fff;
   font-size: 16px;
   padding: 10px 0;
+  transition: .3s background-color ease;
   margin: 0 auto;
   margin-top: 30px;
   width: 199px;
@@ -477,4 +488,72 @@ div {
 
 .submit-button:hover {
   background: #dcaf33;
+}
+
+.additional-container {
+  background-color: #191919;
+  display: flex;
+  padding: 50px 0;
+  justify-content: center;
+}
+
+.additional-group {
+  text-align: center;
+  padding: 5px 70px;
+  width: 370px;
+}
+
+.additional-group:first-child {
+  padding: 5px 8px;
+}
+
+.additional-title {
+  color: #fff;
+  font-size: 21px;
+}
+
+.additional-divider {
+  margin: 15px 0;
+  width: 200px;
+}
+
+.additional-content {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.payments-method {
+  color: #fff;
+  margin-top: 45px;
+}
+
+.payment-icon {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.payment-button:last-child {
+  margin-right: 0px;
+}
+
+.additional-socials {
+  margin-top: 40px;
+}
+
+.additional-social-link {
+  color: #fff;
+}
+
+.additional-social-button {
+  margin-right: 6px;
+}
+
+.additional-social-button:last-child {
+  margin-right: 0px;
 }
