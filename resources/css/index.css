@@ -385,3 +385,96 @@ div {
   font-size: 18px;
   margin-top: 30px;
 }
+
+.form-section {
+  background-image: url("../images/background/pattern-2.png");
+  background-position: 50% 0px;
+  box-shadow: inset 0 0 102px 6px rgba(0, 0, 0, .1);
+}
+
+.form-image {
+  margin-right: 30px;
+}
+
+.form-title {
+  color: #cc9900;
+  font-size: 36px;
+}
+
+.form-info {
+  color: #4c4c4c;
+  font-family: "Lato", sans-serif;
+  line-height: 24px;
+}
+
+.booking-form {
+  text-align: center;
+  margin: 0 70px;
+  width: 430px;
+}
+
+.booking-form .divider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-field {
+  text-align: left;
+}
+
+.form-container {
+  align-items: center;
+  display: flex;
+  padding: 100px 0;
+  justify-content: center;
+}
+
+.field-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-title {
+  color: #c9a131;
+  display: block;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+}
+
+.input-field {
+  border: 1px solid #c8c6c6;
+  padding: 10px 15px;
+  margin-top: 8px;
+}
+
+.form-group {
+  margin-top: 25px;
+}
+
+.input-field::placeholder {
+  font-style: italic;
+}
+
+.input-field:focus {
+  outline: 1px solid #c89f2d;
+}
+
+{
+  margin-bottom: 25px;
+}
+
+.submit-button {
+  background-color: #c89f2d;
+  border: 1px solid #c89f2d;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 199px;
+}
+
+.submit-button:hover {
+  background: #dcaf33;
+}
