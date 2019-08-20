@@ -13,6 +13,11 @@
   src: url(../fonts/GenB.ttf);
 }
 
+@font-face {
+  font-family: "GenBBB";
+  src: url(../fonts/GenBBB.ttf);
+}
+
 body, html, ul, ol, li, p, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
@@ -320,13 +325,64 @@ div {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   padding: 5px;
-  width: 70px;
   position: absolute;
-  top: -28px;
   right: -1px;
+  top: -28px;
+  width: 70px;
 }
 
 .menu-container {
   display: flex;
   justify-content: center;
+}
+
+.fourth-section {
+  background: url("../images/background/section-5.jpg") no-repeat;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.review {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .8);
+  padding: 70px;
+  width: 770px;
+}
+
+.review .divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.review-title {
+  color: #fff;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.review-quote {
+  color: #fff;
+  font-family: "GenBBB", sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  position: relative;
+}
+
+.quote-symbol {
+  color: #f2f4f4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 96px;
+  left: -40px;
+  opacity: .6;
+  position: absolute;
+  top: 15px;
+}
+
+.signature {
+  color: #fff;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
 }
