@@ -221,6 +221,53 @@
         <div class="signature">- food inc, New York</div>
       </div>
     </section>
+    <section class="form-section">
+      <div class="form-container">
+        <img class="form-image" src="resources/images/content/form-image-1.png">
+        <img src="resources/images/content/form-image-2.png">
+        <div class="booking-form">
+          <h2 class="form-title">Just the right food</h2>
+          <img class="divider" src="resources/images/background/gold-divider.png">
+          <p class="form-info first-info">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.
+          </p>
+          <br>
+          <p class="form-info second-info">Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.
+          </p>
+          <form class="title form-field" action="#" method="POST">
+            <div class="field-container">
+              <div class="form-group">
+                <label class="input-title" for="name">Name</label> 
+                <br>
+                <input class="input-field" id="name" name="name-field" type="text" placeholder="your name *" required>
+              </div>
+              <div class="form-group">
+                <label class="input-title" for="email">Email</label>
+                <br>
+                <input class="input-field" id="email" name="email-field" type="text" placeholder="your email *" required>
+              </div>
+              <div class="form-group">
+                <label class="input-title" for="date">Date</label>
+                <br>
+                <input class="input-field" id="date" name="date-field" type="text" placeholder="date *" required>
+              </div>
+              <div class="form-group">
+                <label class="input-title" for="party">Party number</label>
+                <br>
+                <input class="input-field" type="number" list="party-list" id="party" name="party-field" placeholder="party number *" required>
+                <datalist id="party-list">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </datalist>
+              </div>
+              <input class="submit-button" type="submit" value="Book now!">
+              </div>
+            </form>
+        </div>
+      </div>
+    </section>
   </div>
 </body>
 </html>
