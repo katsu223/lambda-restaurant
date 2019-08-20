@@ -170,7 +170,7 @@ div {
   margin-bottom: 155px;
 }
 
-.intro .title {
+.main-title {
   color: #fff;
   font-size: 90px;
   text-shadow:  1px 1px 2px #000;
@@ -193,14 +193,14 @@ div {
   width: 430px;
 }
 
-.first-section .content .title {
+.quote-title {
   color: #cc9900;
   font-weight: 300;
   font-size: 36px;
   margin-bottom: 20px;
 }
 
-.second-section .content .title {
+.ingredients-title {
   color: #fff;
   font-size: 36px;
 }
@@ -286,7 +286,7 @@ div {
   text-align: left;
 }
 
-.menu-group .title {
+.menu-title {
   color: #cc9900;
   font-size: 36px;
 }
@@ -355,7 +355,7 @@ div {
   margin-bottom: 20px;
 }
 
-.review .title {
+.review-title {
   color: #fff;
   font-size: 36px;
 }
