@@ -32,6 +32,12 @@ div {
   width: 1600px;
 }
 
+.title {
+  font-family: "Yeseva One", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
 .button {
   color: #fff;
   font-size: 18px;
@@ -165,9 +171,8 @@ div {
   margin-bottom: 155px;
 }
 
-.main-title {
+.intro .title {
   color: #fff;
-  font-family: "Yeseva One", sans-serif;
   font-size: 90px;
   text-shadow:  1px 1px 2px #000;
 }
@@ -189,12 +194,14 @@ div {
   width: 430px;
 }
 
-.content-title {
+.content .title {
   color: #cc9900;
-  font-family: "Yeseva One", sans-serif;
-  font-size: 36px;
   font-weight: 300;
   margin-bottom: 20px;
+}
+
+.second-section .content .title {
+  color: #fff;
 }
 
 .quote {
@@ -284,10 +291,8 @@ div {
   text-align: left;
 }
 
-.menu-title {
+.menu-group .title {
   color: #cc9900;
-  font-family: "Yeseva One", sans-serif;
-  font-size: 36px;
 }
 
 .menu-item {
@@ -354,11 +359,8 @@ div {
   margin-bottom: 20px;
 }
 
-.review-title {
+.review .title {
   color: #fff;
-  font-family: "Yeseva One", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
 }
 
 .review-quote {
